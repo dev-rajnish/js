@@ -6,9 +6,9 @@
 		<title>Arguments Keywords</title>
 		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="./night-owl.min.css" />
-		<!-- <link rel="stylesheet" href="./monokai.min.css"> -->
 		<script src="./highlight.min.js" defer></script>
-	</head>
+		<script src="output.js" defer></script>
+		</head>
 
 	<body>
 		<h1>Arguments Keywords</h1>
@@ -21,15 +21,20 @@ function add(a, b) {
 // arguments in between ( )
 add(5, 6); // 11
     </code></pre>
-		<!-- ----    script   -----------------       -->
+
+		<!-- OUTPUT -->
+
+		<p id="result">11</p>
+		<button id="btn">Run</button>
+		<!-- script -- -->
+
 		<script>
 			//  Arguments is passed in function Call
 			function add(a, b) {
 				return a + b;
 			}
-
 			// arguments in between ( )
-			add(5, 6); // 11
+			console.log(add(5, 6)); // 11
 		</script>
 	</body>
 </html>
