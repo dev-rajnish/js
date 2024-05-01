@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+}
+
+body {
+	background-color: hwb(210 20% 74%);
+	color: azure;
+}
+
+li {
+	padding-top: 20px;
+}
+a{
+	color: hwb(198 5% 0%);
+	font-size: larger;
+}
+
+pre {
+	padding-top: 20px;
+	font-size: 20px;
+  max-width: 80ch;
+	/* tab-size: 8; */
+}
