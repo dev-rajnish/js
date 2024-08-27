@@ -47,7 +47,7 @@ show (Number("123num"))
 show (Number(""))
 // whitw space
 show (Number ("  123  "))
-line (50)
+line (50);show (Number("")) ;show (Number("            ")) ;
 show (+"  123  ")
 
 // boolean to --> number
