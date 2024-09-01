@@ -31,8 +31,7 @@ function showMsg(from, text = "this is default") {
 let fn = showMsg;
 
 fn("hello", "me");
-
 let line = (ln) => console.log("line " + ln);
 
 
-line(38)
+line(38);

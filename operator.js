@@ -11,6 +11,7 @@ show(counter2)
 let counter3 = counter++;
 show(counter3)
 
+jkj
 // evaluate -->     expression --> evaluate 
 // pre       value assign to    post
 
